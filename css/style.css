@@ -396,15 +396,31 @@ margin-top: 100px;
 }
 .gallery{
     display: flex;
+    justify-content: space-between;
 }
-.gallery >img{
+.gallery .left-panel ul li{
+    padding-top: 5px;
+}
+.gallery .left-panel ul li:first-child{
+    padding-top: 0;
+}
+.gallery .right-panel ul li{
+    padding-top: 5px;
+}
+.gallery .right-panel ul li:first-child{
+    padding-top: 0;
+}
+.gallery img{
 display: block;
 width: 100%;
 }
 .center-panel{
     padding: 0 5px;
-}
 
+}
+.center-panel img{
+    height: 683px;
+}
 
 
 
@@ -1186,13 +1202,25 @@ display: inline-block;
     display: flex;
     justify-content: space-between;
     width: 25%;
-    margin-left: 100px;
+    margin-left: 130px;
+    align-items: baseline;
 
 }
 input{
-    margin-left: 10px;
+    margin-left: -20px;
+    padding: 10px 20px;
+    background: none;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #fff;
+
 }
+.Address input::placeholder{
+    color: #fff;
+}
+
 .submit-btn a{
+    margin-left: -100px;
     color: #fff;
     font-weight: 700;
 font-size: 16px;
@@ -1231,3 +1259,5 @@ padding-bottom: 20px;
 .other-page{
     margin-left: 320px;
 }
+
+
