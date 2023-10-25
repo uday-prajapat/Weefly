@@ -532,7 +532,7 @@ a {
 
 .explore-strain a {
     background: #016837;
-    padding: 10px 45px;
+    padding: 10px 0;
     border-radius: 5px;
     font-weight: 400;
     font-size: 16px;
@@ -543,11 +543,10 @@ a {
 
 .explore-strain ul li {
     padding: 20px;
-    width: calc(20% - 63px);
+    width: calc(20% - 60px);
     border: 2px solid #016837;
     border-radius: 5px;
-    margin-left: 70px;
-
+margin: 0 30px;
 }
 
 .explore-strain ul li:last-child {
@@ -557,7 +556,10 @@ a {
 .explore-strain ul {
     position: relative;
     display: flex;
-    margin: 0 0 0 -70px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 -30px;
+
 }
 
 .blast {
@@ -1766,10 +1768,11 @@ padding-top: 50px;
     font-size: 35px;
 }
 .explore-strain ul{
-
+margin: 0;
 }
+
 .explore-strain ul li{
-    
+    margin: 0 10px;
 }
 .blast{
     margin-top: 30px;
@@ -1964,10 +1967,12 @@ padding-top: 50px;
 }
 
 
-
-
-
-
+.other-page{
+    margin-top: 50px;
+}
+.other-page{
+    margin-top: 50px;
+}
 
 
 
